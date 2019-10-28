@@ -1,0 +1,23 @@
+.c-link {
+
+    line-height: 28px;
+    text-decoration: none;
+    transition:.25s ease-in-out;
+
+
+    &::after{
+        font-family: "Material Icons";
+        content: '\e5cc';
+        font-size: 18px;
+        vertical-align: sub;
+        transition:.25s ease-in-out;
+        display:inline-block;
+    }
+
+    &:hover {
+        span {
+            border-bottom: 1px solid;
+        }
+    }
+
+} 
