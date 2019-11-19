@@ -35,8 +35,8 @@ class VC_C_Link {
         // Use this when creating a shortcode addon
         add_shortcode( 'clink', array( $this, 'renderShortcode' ) );
 
-        // Register CSS and JS
-        add_action( 'wp_enqueue_scripts', array( $this, 'loadCssAndJs' ) );
+        // Register CSS and JS INTO FOOTER! (To stop render-blocking)
+        add_action( 'get_footer', array( $this, 'loadCssAndJs' ) );
     }
  
 
