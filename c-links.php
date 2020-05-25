@@ -2,7 +2,7 @@
 /*
 Plugin Name: _ANDYP - WPBakery component : C-Links
 Plugin URI: http://londonparkour.com
-Description: LondonParkour Custom Visual Composer Component - Link
+Description: <strong>🧩COMPONENT</strong> | <em>Edit Page > Visual Composer > LondonParkour </em> | LondonParkour Custom Visual Composer Component - Link
 Version: 1.0
 Author: Andy Pearson
 Author URI: http://londonparkour.com
